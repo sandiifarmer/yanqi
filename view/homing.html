@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html class="fully">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title></title>
+<link rel="stylesheet" type="text/css" href="../css/yanqi.css">
+<script src="../js/cfg.js"></script>
+<script src="http://libs.baidu.com/zepto/0.8/zepto.min.js"></script>
+</head>
+<body class="fully">
+<div class="container fully" id="container">
+	<div class="top">
+		<div class="menu-btn" id="menu-btn"></div>
+		<!-- <div class="top-logo"></div> -->
+		<span>LOGO</span>
+	</div>
+	<div class="content home-content">
+		<div class="swiper-wrapper">
+			<div class="home-pic swiper-slide">
+				<img src="../img/12.jpg">
+			</div>
+			<div class="home-pic swiper-slide">
+				<img src="../img/15.jpg">
+			</div>
+			<div class="home-pic swiper-slide">
+				<img src="../img/13.jpg">
+			</div>
+			<div class="home-pic swiper-slide">
+				<img src="../img/14.jpg">
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="btm">版权所有 © 2015 雁栖国际会展中心 京ICP备8888</div>
+</div>
+<script src="../js/menu.js"></script>
+<script>new Menu();</script>
+<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+<script src="../js/swiper.min.js"></script>
+<script>
+new Swiper(".content",{
+	autoplay: 2500,
+    autoplayDisableOnInteraction: false,
+	pagination: '.swiper-pagination',
+    paginationClickable: true
+});
+</script>
+</body>
+</html>
